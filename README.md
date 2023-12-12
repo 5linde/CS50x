@@ -3,5 +3,17 @@
 In this repo I document the code I write for CS50x (2023[^1]). 
 This repo is mostly for personal use but if you have stumbled upon it make sure to keep Harvard's Academic Honesty[^2] in mind. Other than that feel free to check out my solutions!
 
+[x] Week0
+[x] Week1
+[x] Week2
+[ ] Week3
+[ ] Week4
+[ ] Week5
+[ ] Week6
+[ ] Week7
+[ ] Week8
+[ ] Week9
+[ ] Week10
+
 [^1]: https://cs50.harvard.edu/x/2023/
 [^2]: https://cs50.harvard.edu/x/2023/honesty/
