@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Performs fairly good on the sorted txts but far worse on the randomly sorted ones. This makes sense since bubble sort has better lower bound than upper bound time complexity.
+
+sort2 uses: Merge sort
+
+How do you know?: This sorting algorithm performs better for random sorted txts which makes sense since the upper bound for merge sort is better than the other two algorithms.
+
+sort3 uses: Selection sort
+
+How do you know?: It has the worst lower bound performance OMEGA(n^2), so running it on the sorted txt took the longest time by far.
