@@ -6,7 +6,7 @@ This repo is mostly for personal use but if you have stumbled upon it make sure 
 - [x] Week0
 - [x] Week1
 - [x] Week2
-- [ ] Week3
+- [x] Week3
 - [ ] Week4
 - [ ] Week5
 - [ ] Week6
