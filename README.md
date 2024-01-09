@@ -3,6 +3,7 @@
 In this repo I document the code I write for CS50x (2023[^1]/2024[^2]). 
 This repo is mostly for personal use but if you have stumbled upon it make sure to keep Harvard's Academic Honesty[^3] in mind. Other than that feel free to check out my solutions!
 
+Progress:
 - [x] Week0
 - [x] Week1
 - [x] Week2
