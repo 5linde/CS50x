@@ -7,7 +7,7 @@ This repo is mostly for personal use but if you have stumbled upon it make sure 
 - [x] Week1
 - [x] Week2
 - [x] Week3
-- [ ] Week4
+- [x] Week4
 - [ ] Week5
 - [ ] Week6
 - [ ] Week7
