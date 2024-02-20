@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the capital of France?</h3>
+                <h4 id='result1'></h4>
+                <button id='btn1'>Marseille</button>
+                <button id='btn2'>Paris</button>
+                <button id='btn3'>Nice</button>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What language is mainly spoken in Spain?</h3>
+                <h4 id='result2'></h4>
+                <input type="text" id="textInput" placeholder="Enter answer here">
+                <button id='btn4'>Answer</button>
+
+            </div>
+        </div>
+
+        <script>
+            // TODO: Add code to check answers to questions
+            const button1 =  document.querySelector('#btn1');
+            const button2 =  document.querySelector('#btn2');
+            const button3 =  document.querySelector('#btn3');
+            const button4 =  document.querySelector('#btn4');
+            const textInput = document.getElementById('textInput');
+
+            button1.addEventListener('click', (event) => {
+                button1.className = 'wrongAns';
+                document.querySelector('#result1').innerHTML = "Incorrect";
+            });
+            button2.addEventListener('click', (event) => {
+                button2.className = 'correctAns';
+                document.querySelector('#result1').innerHTML = "Correct";
+            });
+            button3.addEventListener('click', (event) => {
+                button3.className = 'wrongAns';
+                document.querySelector('#result1').innerHTML = "Incorrect";
+            });
+            button4.addEventListener('click', (event) => {
+            const enteredText = textInput.value;
+            const answer = "Spanish"; // Change this to the specific string you want to check
+
+            // Check if the entered text matches the specific string
+            if (enteredText.toLowerCase() === answer.toLowerCase())
+            {
+                textInput.className = 'correctAns';
+                document.querySelector('#result2').innerHTML = "Correct";
+            }
+            else
+            {
+                textInput.className = 'wrongAns';
+                document.querySelector('#result2').innerHTML = "Incorrect";
+            }
+            });
+
+        </script>
+    </body>
+</html>

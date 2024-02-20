@@ -1,0 +1,24 @@
+HTML tags
+1. <meta>
+2. <div>
+3. <h1>
+4. <h2>
+5. <button>
+6. <a>
+7. <h3>
+8. <p>
+9. <ul>
+10. <li>
+
+CSS properties
+1. background-image
+2. margin-top
+3. font-size
+4. border-width
+5. font-style
+
+JavaScript
+I used JS on a button in my homepage which shows and hides a card group as well as change the text on the button
+
+Bootstrap
+I used a card group from bootstrap which presents 3 recipes I like

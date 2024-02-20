@@ -1,0 +1,8 @@
+With the average of energy, valence and danceabiity being 0.65906, 0.484443 and 0.71646, we see that the person has above average energy and danceability but below average valence.
+Comparing this to the different auras I think that the person would have purple or blue audio aura.
+
+Purple aura: This aura color pairs well with passionate music listeners. Purple auras tune in to get amped up, entertained, and moving while they navigate the twists and turns of their day.
+Blue: Blues are wistful or emotional, and this hue reflects listeners who seek out music to feel their feelings out loud.
+
+This way of calculating the audio aura might not be very representative of the listener since the factors are pretty limited. A better way to calculate the audio aura could be to take into account
+the genre and mood of the songs, if possible maybe time of day that the listener listened to the song.

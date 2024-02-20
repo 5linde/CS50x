@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>HomePage</title>
+    </head>
+    <body class='wallpaper'>
+        <div class='welcome-text'>
+            <h1 class='page-title'>Welcome</h1>
+            <h2 class='page-undertitle'>This website presents to you 3 of</h2>
+            <h2 class='page-undertitle'>my favorite recipes</h2>
+            <button class="btn-undertitle" id="btn-show">Show Recipes</button>
+        </div>
+
+        <div class="hidden-div" id="hidden-div">
+            <div class="container d-flex justify-content-center">
+                <div class="card-group">
+                    <div class="card">
+                    <img src="imgs/baobuns.jpg" class="card-img-top" alt="hoisin pork baobuns">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="baobuns.html">Hoisin Pork Baobuns</a></h5>
+                        <p class="card-text"> Delicious hoisin pork baobuns are a mouthwatering fusion dish, combining succulent pork marinated in savory hoisin sauce with fluffy baobun buns. The tender pork is typically
+                            slow-cooked to perfection, ensuring maximum flavor infusion. These baobuns offer a delightful contrast of textures and flavors, making them a favorite among food enthusiasts.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="imgs/air-fryer-chicken-wrap.jpg" class="card-img-top" alt="airfried chicken wrap">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="chickenwrap.html">Airfried Chicken Wrap</a></h5>
+                        <p class="card-text">The airfried chicken wrap is a delightful and healthier twist on the classic chicken wrap, featuring crispy, golden-brown chicken cooked to perfection in an air fryer.
+                            Wrapped in a soft tortilla, the juicy chicken is complemented by an array of fresh veggies and flavorful sauces, creating a satisfying and wholesome meal. This dish offers a convenient
+                            and delicious option for those looking for a lighter alternative to traditional fried chicken wraps.</p>
+                    </div>
+                    </div>
+                    <div class="card">
+                    <img src="imgs/snickers.png" class="card-img-top" alt="snickers cake">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="snickerscake.html">Snickers Cake</a></h5>
+                        <p class="card-text">This Snickers cake offers a unique twist on the classic dessert, featuring a crunchy peanut butter mass base topped with rich melted chocolate and a sprinkle of flaked sea salt.
+                            The result is a deliciously decadent treat that captures the essence of the beloved candy bar in cake form.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var hiddenDiv = document.querySelector("#hidden-div");
+            var btnShow = document.querySelector("#btn-show");
+            btnShow.addEventListener("click", function() {
+                if (hiddenDiv.classList.contains("hidden-div"))
+                {
+                    hiddenDiv.classList.remove("hidden-div");
+                    btnShow.innerHTML = "Hide Recipes";
+                }
+                else
+                {
+                    hiddenDiv.classList.add("hidden-div");
+                    btnShow.innerHTML = "Show Recipes";
+                }});
+
+
+        </script>
+
+
+    </body>
+</html>
+
+

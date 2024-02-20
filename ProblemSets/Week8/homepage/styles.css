@@ -1,0 +1,118 @@
+.wallpaper {
+    background-image: url('imgs/cookingwall.jpg');
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wallpaper-bao {
+    background-image: url('imgs/baobuns.jpg');
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    background-size: cover;
+}
+
+.wallpaper-chicken {
+    background-image: url('imgs/air-fryer-chicken-wrap.jpg');
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    background-size: cover;
+}
+
+.wallpaper-snickers {
+    background-image: url('imgs/snickers.png');
+    background-repeat: no-repeat, repeat;
+    background-color: white;
+    background-size: cover;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    max-width: 300px;
+    border-color: #3c3c38;
+    border-width: 3px;
+}
+
+.card-text {
+    font-style: oblique;
+}
+
+.welcome-text {
+    text-align: center;
+}
+
+.page-title {
+    color: black;
+    font-family: 'Brush Script MT', 'cursive';
+    font-size: 100px;
+}
+
+.page-undertitle {
+    color: black;
+    font-family: 'Brush Script MT', 'cursive';
+    font-size: 50px;
+}
+
+.hidden-div {
+    display: none;
+}
+
+.btn-text {
+    color: #000000;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 50px;
+    background-color: #4f9f2e;
+    border-width: 0px;
+
+}
+
+.btn-prev {
+    margin-right: 20px;
+}
+
+.btn-undertitle {
+    background-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-low {
+    margin-bottom: 15px;
+}
+
+.white-rectangle {
+    width: 90%; /* Adjust width as needed */
+    max-width: 1000px; /* Set maximum width to prevent overflow on smaller screens */
+    height: auto; /* Let the height adjust automatically based on content */
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 10px 2px grey;
+    margin: auto;
+    padding: 20px; /* Increased padding for better spacing */
+    margin-top: 50px; /* Adjust margin-top as needed */
+    border-radius: 10px;
+    position: relative; /* Set relative positioning */
+}
+
+.recipe-text {
+    margin-top: 10px;
+    width: 100%; /* Set width to 100% to occupy full width of the container */
+}
+
+.rect-pos {
+    display: flex;
+    flex-direction: column; /* Change flex direction to column */
+}
+
+.title {
+    margin-top: 15px;
+}
