@@ -11,8 +11,8 @@ Progress:
 - [x] Week4
 - [x] Week5
 - [x] Week6
-- [ ] Week7
-- [ ] Week8
+- [x] Week7
+- [x] Week8
 - [ ] Week9
 - [ ] Week10
 
